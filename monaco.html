@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <script src="./node_modules/monaco-editor/min/vs/loader.js"></script>
+        <script>
+                //@ts-ignore
+                require.config({ paths: { vs: '../node_modules/monaco-editor/min/vs' } });
+                //@ts-ignore
+                require(['vs/editor/editor.main'], () => {
+                
+                });
+        </script>
+        <script src="./node_modules/blockly/blockly_compressed.js"></script>
+        <script src="./node_modules/blockly/blocks_compressed.js"></script>
+        <script src="./node_modules/blockly/javascript_compressed.js"></script>
+        <script src="./node_modules/blockly/msg/en.js"></script>
+    </head>
+    <body>
+        Monaco Blockly Test
+        <div id="main" style="width: 500px; height: 500px;"></div>
+    </body>
+</html>
