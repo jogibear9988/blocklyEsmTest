@@ -1,0 +1,17 @@
+{
+  "name": "blocklyesmtest",
+  "version": "1.0.0",
+  "description": "test to use blockly as esm module",
+  "scripts": {
+    "start": "web-dev-server --node-resolve --open index.html"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "blockly": "^11.0.0"
+  },
+  "devDependencies": {
+    "@web/dev-server": "^0.4.5",
+    "es-module-shims": "^1.10.0"
+  }
+}
