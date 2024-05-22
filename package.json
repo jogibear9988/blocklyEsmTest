@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "test to use blockly as esm module",
   "scripts": {
-    "start": "web-dev-server --node-resolve --open index.html"
+    "start": "web-dev-server --open index.html"
   },
   "author": "",
   "license": "MIT",
